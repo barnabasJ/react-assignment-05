@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: steelblue;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+}
+
+nav a {
+  color: ivory;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+main article {
+  border-bottom: 1px solid dodgerblue;
+  padding: 20px;
+}
+
+main article:first-of-type {
+  border-top: 1px solid dodgerblue;
+}
+
+main article.unread {
+  background-color: lightcyan;
+}
+
+h2 {
+  color: dodgerblue;
+  margin-bottom: 10px;
+}
+
+#messages-notification {
+  color: red;
+  padding: 20px;
+}
+
+form {
+  padding: 20px;
+}
+
+form label > div {
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid dodgerblue;
+}
+
+form button {
+  background-color: steelblue;
+  border: none;
+  border-radius: 3px;
+  color: ivory;
+  padding: 5px;
+}
